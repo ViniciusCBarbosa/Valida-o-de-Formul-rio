@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valição de Formulário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="./script.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <form id="form" action="/">
+                <h1>Registrar</h1>
+                <div class="input-control">
+                    <label for="username">Usuário</label>
+                    <input id="username" name="username" type="text" required>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="email">E-mail</label>
+                    <input id="email" name="username" type="email" required>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="senha">Senha</label>
+                    <input id="senha" name="senha" type="password" required>
+                    <div class="error"></div>
+                </div>
+                <div class="input-control">
+                    <label for="senha2">Confirme a senha</label>
+                    <input id="senha2" name="senha2" type="password" required>
+                    <div class="error"></div>
+                </div>
+                <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
